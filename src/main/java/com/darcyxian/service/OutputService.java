@@ -1,5 +1,6 @@
 package com.darcyxian.service;
 
+import com.darcyxian.aspect.Loggable;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

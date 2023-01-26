@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79070e-98a3-43f2-a8cb-fba7fe606a6b" name="Default Changelist" comment="" />
+    <list default="true" id="0d79070e-98a3-43f2-a8cb-fba7fe606a6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darcyxian/aspect/Countable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/darcyxian/aspect/CountingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darcyxian/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darcyxian/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darcyxian/service/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darcyxian/service/GreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darcyxian/service/OutputService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darcyxian/service/OutputService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/darcyxian/service/TimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darcyxian/service/TimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/darcyxian/aspect/LoggingAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/darcyxian/aspect/LoggingAspect.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +28,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2KkxbV4bY7V1r7oyhIoKiXulZmt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,11 +42,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="springDepth" type="Application" factoryName="Application">
@@ -38,6 +57,17 @@
       <option name="MAIN_CLASS_NAME" value="com.darcyxian.Application" />
       <module name="SpringInDepth" />
       <option name="VM_PARAMETERS" value="-Dspring.profiles.active=prod" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -54,11 +84,24 @@
       <workItem from="1674532456602" duration="6778000" />
       <workItem from="1674698710792" duration="687000" />
       <workItem from="1674699470199" duration="187000" />
-      <workItem from="1674699669026" duration="1596000" />
+      <workItem from="1674699669026" duration="7117000" />
+      <workItem from="1674739779231" duration="4494000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

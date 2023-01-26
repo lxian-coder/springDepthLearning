@@ -1,5 +1,7 @@
 package com.darcyxian.service;
 
+import com.darcyxian.aspect.Countable;
+import com.darcyxian.aspect.Loggable;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -20,6 +22,7 @@ public class TimeService {
 super();
     }
 
+    @Countable
     public String getCurrentTime(){
         LocalDateTime now = LocalDateTime.now();
         if(is24){
